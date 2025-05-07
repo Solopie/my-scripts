@@ -1,4 +1,6 @@
-# Exploit Scripts
+# My Scripts
+
+Contains a variety of scripts that I make for exploitation or enumeration when hacking.
 
 TODO: Automate the population of this README file. At the moment it is manual.
 
