@@ -1,9 +1,3 @@
-# Context:
-# - HTB Box "UpDown"
-# Description:
-# - Can SSRF via a "request baskets" application. Utilise the SSRF to reach an internally accessible service
-# - The internally accessible service is running Maltrail which contains a unauth command injection
-
 import requests
 import io
 import threading
