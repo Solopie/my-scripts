@@ -28,6 +28,22 @@ TODO: Automate the population of this README file. At the moment it is manual.
       </td>
       <td><a href="https://app.hackthebox.com/machines/Help">HTB Help</a></td>
     </tr>
+    <tr>
+      <td><a href="python/parse_pcap_list_ips_in_arp.py">parse_pcap_list_ips_in_arp.py</a></td>
+      <td>pcap,scapy,ipaddress</td>
+      <td>
+        Ran wireshark on a host in a Active Directory environment and passively listened to network traffic. Listening for ARP broadcasts is a method of passively identifying active host IPs on the network.
+      </td>
+      <td>HTB Academy Enumeration Exercise</td>
+    </tr>
+    <tr>
+      <td><a href="python/parse_pcap_list_hostnames_nbns.py">parse_pcap_list_hostnames_nbns.py</a></td>
+      <td>pcap,scapy</td>
+      <td>
+        Ran wireshark on a host in a Active Directory environment and passively listened to network traffic. Listening for NBNS (NetBIOS Name Service) broadcasts is a method of passively identifying active hostnames on the network.
+      </td>
+      <td>HTB Academy Enumeration Exercise</td>
+    </tr>
   </tbody>
 </table>
 
