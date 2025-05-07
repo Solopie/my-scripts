@@ -5,6 +5,7 @@
 # - The filename is replaced with a MD5 hash generated based on FILENAME + EPOCH_TIME 
 # - Inspiration of exploit script taken from: https://github.com/JubJubMcGrub/HelpDeskZ-1.0.2-File-Uplaod/blob/master/helpdeskz.py
 # - Only real difference is the use of threads to speed of the process of finding the uploaded file
+# - Can't automate file upload as CAPTCHA is required. Attempted to use autosolvers but couldn't get basic OCR ones like pyTesseract to get the right result
 
 import requests
 import hashlib
