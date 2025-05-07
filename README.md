@@ -44,6 +44,14 @@ TODO: Automate the population of this README file. At the moment it is manual.
       </td>
       <td>HTB Academy Enumeration Exercise</td>
     </tr>
+    <tr>
+      <td><a href="python/ssrf_internal_port_fuzzing.py">ssrf_internal_port_fuzzing.py</a></td>
+      <td>requests, multiprocessing, tqdm</td>
+      <td>
+        Web application vulnerable to SSRF. Fuzzing for internally open ports.
+      </td>
+      <td><a href="https://app.hackthebox.com/machines/493">HTB UpDown</a></td>
+    </tr>
   </tbody>
 </table>
 
